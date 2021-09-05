@@ -81,7 +81,7 @@ export function FavoritesContextProvider(props) {
             let myPromise = new Promise(function(myResolve, myReject) {
                 setTimeout(() => {
                     myResolve ({db, objectStore, STORE_NAME })
-                }, 1)
+                }, 300)
             });
 
             await myPromise;
